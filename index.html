@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"> Rachel Joy Asiwagan Pedrosa</div>
+        <div>
+            <ul class="nav-links">
+               <li><a href="#about">About</a></li>
+               <li><a href="#experience">Experience</a></li> 
+               <li><a href="#projects">Projects</a></li>
+               <li><a href="#contact">Contact</a></li> 
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+    <div class="logo">Hello</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+       </div>   
+       <div class="menu-links">
+         <li><a href="#about">About</a></li>
+         <li><a href="#experience">Experience</a></li> 
+         <li><a href="#projects">Projects</a></li>
+         <li><a href="#contact">Contact</a></li> 
+       </div>
+    </div>  
+    </nav>
+    <section id="profile">
+      <div class="section_pic-container">
+        <img src="./assets/profile-pic (2).png" alt="Rachel profile pic">
+      </div> 
+      <div class="section_text">
+        <p class="section_text_p1">Hello, I'm</p>
+        <h1 class="title">Rachel Joy</h1>
+        <p class="section_text_p2">BSCS Student</p>
+        <div class="btn-container">
+            <button 
+                class="btn btn-color-2" 
+                onclick="window.open('./assets/CV&resume.pdf')">Download CV and Resume</button>
+            <button 
+                class="btn btn-color-1" 
+                onclick="location.href='./#contact'">Contact Info</button>
+        </div>
+        <div id="social-container">
+            <img src="./assets/fb.webp" 
+            alt="My Facebook Profile"
+            class="icon-fb" onclick="location.href='https://www.facebook.com/share/1D7PLT6JCg/?mibextid=wwXIfr'"/> 
+
+            <img src="./assets/insta.png" 
+            alt="My Instagram Profile"
+            class="icon" onclick="location.href='https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fcupofjoy070%3Figsh%3DZGdiOTQwZGg2MXhz%26utm_source%3Dqr&h=AT0Lu1Be6NqFAAoc444ltZPCKwTi8vU88Xn-nSUgD7NaJBGtXesGWc6gktznXJhviGqUrfy3kjgcVhxLp2_jwWus2X3vAjEbTXQQZPnc0kWNNA4ChJtC5tvsswkRcnalqBaDPg'"/>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="./assets/about.jpg" alt="Profile Picture" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="experience icon" class="icon"/>
+                        <h3>Interest</h3>
+                        <p>Designing and Public Speaking <br />Hustler of the Team</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="education icon" class="icon"/>
+                        <h3>Education</h3>
+                        <p>Bachelor of Science in Computer Science <br />Student</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>I am a designer at heart and a hustler in the team. 
+                        I enjoy crafting visuals, polishing layouts, and creating 
+                        meaningful user experiences. In group work, I take initiative, 
+                        stay focused, and make sure tasks are completed on time. 
+                        Designing fuels my creativity, and being a team hustler drives 
+                        my commitment to excellence. I am continuously improving my skills 
+                        through hands-on projects, research work, and real-world problem solving, 
+                        allowing me to grow both creatively and technically.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" 
+        alt="arrow icon" 
+        class="icon arrow" 
+        onclick="location.href='./#experience'"/>
+     </section>
+     <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience and Achievements</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">PhuTech</h2>
+                    
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon"
+                            class="icon"/>
+                            <div>
+                                <h3>Co-Founder</h3>
+                                <p>February 2024</p>
+                                 </div> 
+                        </article>
+                        <p class="desc">• Co-founded PHUTech, a tech startup from a technopreneurship course, aimed at promoting
+                                    inclusivity and integrating technology to education.
+                                    • Proposed ISAT Docs, an online document request and tracking app, which was selected for the
+                                    final pitching competition out of 10 projects.</p>  
+                    </div>
+                </div>
+                 <div class="details-container">
+                    <h2 class="experience-sub-title">ISAT U KWADRA TBI Technopreneurship Demo Day</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon"
+                            class="icon"/>
+                            <div>
+                                <h3>3rd place</h3>
+                                <p>Experience</p>
+                            </div>
+                            </article>
+<p>• Joined a student startup organization at ISAT U, focused on supporting innovators and
+                                technopreneurs. Resulted in more opportunities for building connections, growth and
+                                development, and innovations.</p>
+                    </div>
+                </div>
+                 <div class="details-container">
+                    <h2 class="experience-sub-title">ISAT U KWADRA TBI Technopreneurship Demo Day</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon"
+                            class="icon"/>
+                            <div>
+                                <h3>Pitch Day</h3>
+                                <p>October 2025</p>
+                                </div>
+                        </article>
+<p>• Participated in the ISAT U KWADRA TBI Technopreneurship Demo/Pitch Day, together with
+                                my team, I presented our startup UNIDOCS, an online document request system. The event
+                                provided an opportunity to pitch our innovation to potential investors, showcase our project’s
+                                impact, and gain valuable feedback and networking opportunities for future development.</p>
+                            
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img 
+        src="./assets/arrow.png" 
+        alt="Arrow icon" 
+        class="icon arrow" 
+        onclick="location.href='./#projects'"/>
+        </section>
+
+        <section id="projects">
+            <p class="section_text_p1"> Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project1.jpg" 
+                        alt="project1" 
+                        class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <h3>Co-Founder</h3>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="window.open('./assets/project1.pdf')">
+                             Description
+                        </button>
+                    </div>
+                </div>
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project2.jpg" 
+                        alt="project2" 
+                        class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                     <h3>Co-Founder</h3>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="window.open('./assets/project2.pdf')">
+                             Description
+                        </button>
+                    </div>
+                </div>
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project3.jpg" 
+                        alt="project3" 
+                        class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                     <h3>Co-Founder</h3>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="window.open('./assets/project3.pdf')">
+                             Description
+                        </button>
+                    </div>
+                </div>
+             </div>
+             </div>
+        
+                <img src="./assets/arrow.png" 
+        alt="arrow icon" class="icon arrow" 
+        onclick="location.href='./#contact'"/>
+        </section>
+        <section id="contact">
+            <p class="section_text_p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email icon"
+                class="icon contact-icon"/>
+                <p><a href="mailto:racheljoy.pedrosa@students.isatu.edu.ph">racheljoy.pedrosa@students.isatu.edu.ph</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/call.png" alt="call icon" 
+                class="icon contact-icon"/>
+                <p><a href="tel:09106940067">09106940067</a></p>
+            </div>
+            </div>
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                       <li><a href="#about">About</a></li>
+                       <li><a href="#experience">Experience</a></li>
+                       <li><a href="#projects">Projects</a></li>
+                       <li><a href="#contact">Contact</a></li>  
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2025 Rachel Joy Pedrosa. All Rights Reserved</p>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>
